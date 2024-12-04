@@ -1,0 +1,22 @@
+/* Generic  */
+.text-2xl {
+    font-weight: 600;
+    font-size: 90px;
+    color: #2D2D2D;
+}
+
+.text-l {
+    font-weight: 600; 
+    font-size: 50px;
+}
+
+.text-m {
+    font-weight: 600; 
+    font-size: 38px;
+}
+
+.text-xs {
+    font-weight: 500; 
+    font-size: 21px;
+}
+

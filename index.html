@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/style/reset.css" />
+        <!-- <link rel="stylesheet" href="./assets/style/reset.css" /> -->
+        <link rel="stylesheet" href="./assets/style/generic.css" />
+        <link rel="stylesheet" href="./assets/style/navbar.css" />
+        <link rel="stylesheet" href="./assets/style/button.css" />
         <link rel="stylesheet" href="./assets/style/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,6 +14,7 @@
             href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LandingPage</title>
     </head>
     <body>
@@ -37,7 +41,7 @@
                 </h1>
                 <p>
                     Build beautiful landing pages in record time with
-                    <a class="anima" href="">Anima</a>'s Landing <br />
+                    <a href="">Anima</a>'s Landing <br />
                     Page UI kit for Figma. No code required!
                 </p>
                 <div class="button-container">
@@ -51,8 +55,6 @@
         </section>
         <!-- hero-section -->
 
-        <hr />
-
         <!-- logobar -->
         <section class="logobar">
             <img src="./assets/icon/airbnb.svg" />
@@ -64,56 +66,39 @@
         </section>
         <!-- logobar -->
 
-        <hr />
-
         <!-- features -->
         <section class="features">
-            <div class="headline">
-                <h3>Features</h3>
+            <div class="title-container">
+                <h2 class="subTitle">Features</h2>
                 <p>
                     These are a few features you'll get using Anima landing Page
                     Ui kit.
                 </p>
             </div>
             <div class="features-cards">
-                <div class="card">
+                <div class="features-card">
                     <img src="./assets/icon/fast.svg" />
-                    <h4>Fast building</h4>
-                    <h6>
-                        Tailor Anima's Landing Page UI kit to <br />
-                        your unique style and brand with <br />customisable
-                        components, in no time!
-                    </h6>
-                    <a href=""
-                        >Learn more
-                        <img src="./assets/icon/ArrowRightgreen.svg"
-                    /></a>
+                    <h3>Fast building</h3>
+                    <p>
+                        Tailor Anima's Landing Page UI kit to your unique style and brand with customisable components, in no time!
+                    </p>
+                    <a href="">Learn more<img src="./assets/icon/ArrowRightgreen.svg"/></a>
                 </div>
-                <div class="card">
+                <div class="features-card">
                     <img src="./assets/icon/responsive.svg" />
-                    <h4>Responsive design</h4>
-                    <h6>
-                        No need worry about screen size. <br />
-                        Anima's Landing Page UI Kit adapts to <br />
-                        any screen size, from desktop to mobile.
-                    </h6>
-                    <a href=""
-                        >Learn more
-                        <img src="./assets/icon/ArrowRightgreen.svg"
-                    /></a>
+                    <h3>Responsive design</h3>
+                    <p>
+                        No need worry about screen size. Anima's Landing Page UI Kit adapts to any screen size, from desktop to mobile.
+                    </p>
+                    <a href="">Learn more<img src="./assets/icon/ArrowRightgreen.svg"/></a>
                 </div>
-                <div class="card">
+                <div class="features-card">
                     <img src="./assets/icon/nocode.svg" />
-                    <h4>No code needed</h4>
-                    <h6>
-                        Zero coding skills required. Anima's <br />
-                        Landing Page UI Kit empowers you to <br />create
-                        stunning landing pages with ease.
-                    </h6>
-                    <a href=""
-                        >Learn more
-                        <img src="./assets/icon/ArrowRightgreen.svg"
-                    /></a>
+                    <h3>No code needed</h3>
+                    <p>
+                        Zero coding skills required. Anima's Landing Page UI Kit empowers you to create stunning landing pages with ease.
+                    </p>
+                    <a href="">Learn more<img src="./assets/icon/ArrowRightgreen.svg"/></a>
                 </div>
             </div>
         </section>
@@ -121,29 +106,26 @@
 
         <!-- metrics -->
         <section class="metrics">
-            <div class="headline">
-                <h3>Our Metrics Tell the Story</h3>
-                <p>
-                    Our metrics component gives you the inside scoop on your
-                    success and helps you stay on top of your game in style.
-                </p>
+            <div class="metrics-container title-container">
+                <h2>Our Metrics Tell the Story</h2>
+                <p>Our metrics component gives you the inside scoop on your success and helps you stay on top of your game in style.</p>
             </div>
-            <div class="metrics-item">
-                <div class="item first">
-                    <h4>10k+</h4>
-                    <h6>Website lauched</h6>
+            <div class="metrics-items">
+                <div class="metrics-item">
+                    <span>10k+</span>
+                    <p>Website lauched</p>
                 </div>
-                <div class="item second">
-                    <h4>931k+</h4>
-                    <h6>Projects created with Anima</h6>
+                <div class="metrics-item">
+                    <span>931k+</span>
+                    <p>Projects created with Anima</p>
                 </div>
-                <div class="item third">
-                    <h4>240k+</h4>
-                    <h6>New users joined Anima</h6>
+                <div class="metrics-item">
+                    <span>240k+</span>
+                    <p>New users joined Anima</p>
                 </div>
-                <div class="item fourth">
-                    <h4>12k+</h4>
-                    <h6>Teams used Anima</h6>
+                <div class="metrics-item">
+                    <span>12k+</span>
+                    <p>Teams used Anima</p>
                 </div>
             </div>
         </section>
@@ -151,69 +133,49 @@
 
         <!-- highlighted -->
         <section class="highlighted">
-            <div>
-                <img src="./assets/img/Visuals2.svg" />
-            </div>
+            <img src="./assets/img/Visuals2.svg" />
             <div class="highlighted-header">
-                <h2>Get Landing Page UI kit <br />Today!</h2>
-                <p>
-                    Break the Figma limits and explore the endless possibilities
-                    <br />with Anima.
-                </p>
-                <a href="" class="button green">Get Started <img src="./assets/icon/ArrowRightwhite.svg"/></a>
+                <h2>Get Landing Page UI kit Today!</h2>
+                <p>Break the Figma limits and explore the endless possibilities with Anima.</p>
+                <a href="#" class="button green">Get Started <img src="./assets/icon/ArrowRightwhite.svg"/></a>
             </div>
         </section>
         <!-- highlighted -->
 
         <!-- testimonials -->
         <section class="testimonials">
-            <div class="headline">
-                <h3>Real stories from Satisfied Customers</h3>
+            <div class="title-container">
+                <h2>Real stories from Satisfied Customers</h2>
                 <p>See how our landing page ui kit is making an impact.</p>
             </div>
-            <div class="review-cards">
-                <div class="review">
-                    <img src="./assets/photo/sarah.jpg" />
-                    <h5>Sarah K.</h5>
-                    <p>UX Designer @Brello</p>
-                    <h6>
-                        "I was looking for a way to streamline my <br />design
-                        process and the Anima's Landing <br />Page UI Kit was a
-                        lifesaver ! The intuitive <br />design and ease of
-                        customisation have <br />saved me hours of time and
-                        effort. Highly <br />recommend."
-                    </h6>
-                    <div class="stars">
+            <div class="testimonials-cards">
+                <div class="testimonials-card">
+                    <img class="testimonials-avatar" src="./assets/photo/sarah.jpg" />
+                    <p class="testimonials-title">Sarah K.</p>
+                    <p class="testimonials-role">UX Designer @Brello</p>
+                    <p> "I was looking for a way to streamline my design process and the Anima's Landing Page UI Kit was a lifesaver ! The intuitive design and ease of customisation have saved me hours of time and effort. Highly recommend."
+                    </p>
+                    <div class="testimonials-stars">
                         <img src="./assets/icon/Star Rating.svg" />
                     </div>
                 </div>
-                <div class="review">
-                    <img src="./assets/photo/Michael.jpg" />
-                    <h5>Michael L.</h5>
-                    <p>Creative Director @Yo</p>
-                    <h6>
-                        "The Landing Page UI Kit has been <br />a game changer
-                        for my agency. The <br />predesigned components and
-                        templates <br />have helped us deliver projects faster
-                        <br />
-                        and with more consistency. <br />Great job!"
-                    </h6>
-                    <div class="stars">
+                <div class="testimonials-card">
+                    <img class="testimonials-avatar" src="./assets/photo/Michael.jpg" />
+                    <p class="testimonials-title">Michael L.</p>
+                    <p class="testimonials-role">Creative Director @Yo</p>
+                    <p> "The Landing Page UI Kit has been a game changer for my agency. The predesigned components and templates have helped us deliver projects faster  and with more consistency. Great job!"
+                    </p>
+                    <div class="testimonials-stars">
                         <img src="./assets/icon/Star Ratingempty.svg" />
                     </div>
                 </div>
-                <div class="review">
-                    <img src="./assets/photo/Lauren.jpg" />
-                    <h5>Lauren M.</h5>
-                    <p>UI Designer @Boo</p>
-                    <h6>
-                        "Anima's Landing Page UI Kit has become <br />a staple
-                        in my design toolkit. Whether I'm <br />working on a new
-                        project or need to <br />make updates to an existing
-                        one, this kit <br />has everything I need to get the job
-                        done <br />quickly and efficiently. "
-                    </h6>
-                    <div class="stars">
+                <div class="testimonials-card">
+                    <img class="testimonials-avatar" src="./assets/photo/Lauren.jpg" />
+                    <p class="testimonials-title">Lauren M.</p>
+                    <p class="testimonials-role">UI Designer @Boo</p>
+                    <p> "Anima's Landing Page UI Kit has become a staple in my design toolkit. Whether I'm working on a new project or need to make updates to an existing one, this kit has everything I need to get the job done quickly and efficiently. "
+                    </p>
+                    <div class="testimonials-stars">
                         <img src="./assets/icon/Star Rating.svg" />
                     </div>
                 </div>
@@ -223,37 +185,31 @@
 
         <!-- pricing -->
         <section class="pricing">
-            <div class="headline">
+            <div class="title-container">
                 <h3>Pick Your Perfect Plan</h3>
-                <p>
-                    Find the perfect plan for your business with our flexible
-                    pricing options
-                </p>
+                <p>Find the perfect plan for your business with our flexible pricing options</p>
             </div>
             <div class="pricing-cards">
-                <div class="price">
-                    <h2>Free</h2>
-                    <h3><span>$0</span> /month</h3>
+                <div class="pricing-card">
+                    <p class="pricing-offerTitle">Free</p>
+                    <p class="pricing-offerPrice"><span>$0</span> /month</p>
                     <p>Best for Small Teams or Individuals.</p>
                     <ul>
                         <li>
-                            <img src="./assets/icon/Checkgreen.svg" />Write
-                            feature details here
+                            <img src="./assets/icon/Checkgreen.svg" />Write feature details here
                         </li>
                         <li>
-                            <img src="./assets/icon/Checkgreen.svg" />Write
-                            feature details here
+                            <img src="./assets/icon/Checkgreen.svg" />Write feature details here
                         </li>
                         <li>
-                            <img src="./assets/icon/Checkgreen.svg" />Write
-                            feature details here
+                            <img src="./assets/icon/Checkgreen.svg" />Write feature details here
                         </li>
                     </ul>
-                    <a href="" class="button lightGreen">Get Started</a>
+                    <a href="" class="button lightGreen">Get Started <img src="./assets/icon/ArrowRightgreen.svg"/></a>
                 </div>
-                <div class="price">
-                    <h2>Professional</h2>
-                    <h3><span>$19</span> /month</h3>
+                <div class="pricing-card">
+                    <p class="pricing-offerTitle">Professional</p>
+                    <p class="pricing-offerPrice"><span>$19</span> /month</p>
                     <p>Ideal for Growing Companies.</p>
                     <ul>
                         <li>
@@ -269,11 +225,11 @@
                             feature details here
                         </li>
                     </ul>
-                    <a href="" class="button lightGreen">Get Started</a>
+                    <a href="" class="button lightGreen">Get Started <img src="./assets/icon/ArrowRightgreen.svg"/></a>
                 </div>
-                <div class="price hover">
-                    <h2>Enterprise</h2>
-                    <h3><span>$49</span> /month</h3>
+                <div class="pricing-card">
+                    <p class="pricing-offerTitle">Enterprise</p>
+                    <p class="pricing-offerPrice"><span>$49</span> /month</p>
                     <p>Ultimate for Enterprise Solutions.</p>
                     <ul>
                         <li>
@@ -295,9 +251,8 @@
         </section>
         <!-- pricing -->
 
-        <!-- team -->
-        <section class="team">
-            <div class="headline">
+        <!-- <section class="team">
+            <div class="title-container">
                 <h3>Meet our team</h3>
                 <p>
                     Get to know the faces behind the scenes and learn about the
@@ -346,9 +301,7 @@
                 </div>
             </div>
         </section>
-        <!-- team -->
 
-        <!-- cta -->
         <section class="cta">
             <div class="highlighted-header">
                 <h2>Get Landing Page UI kit <br />Today!</h2>
@@ -361,8 +314,7 @@
             <div class="visual">
                 <img src="./assets/img/Mockup.svg" />
             </div>
-        </section>
-        <!-- cta -->
+        </section> -->
 
         <!-- contact -->
         <section class="contact">
@@ -388,19 +340,19 @@
                     <a href=""><img src="./assets/icon/instagram.svg" /></a>
                 </div>
                 <div class="input">
-                    <input
-                        type="text"
-                        name="fullname"
-                        img
-                        src="./assets/icon/user.svg"
-                    />
+                    <div class="input-radius">
+                        <img src="./assets/icon/user.svg" alt="">
+                        <input type="text" name="fullname" placeholder="Full Name"/>
+                    </div>
 
-                    <input
-                        type="text"
-                        name="email"
-                        img
-                        src="./assets/icon/mailuser.svg"
-                    />
+                    <div class="input-radius">
+                        <img src="./assets/icon/mailuser.svg" alt="">
+                        <input
+                            type="text"
+                            name="email"
+                            placeholder="Email"
+                        />
+                    </div>
 
                     <button class="button green">Submit</button>
                 </div>

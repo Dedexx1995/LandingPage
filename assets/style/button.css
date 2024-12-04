@@ -1,0 +1,27 @@
+/****** BUTTON ******/
+.button {
+    display: flex;
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 50px;
+    text-decoration: none;
+    gap: 8px;
+}
+
+.button.green {
+    background-color: #009379;
+    color: #fff;
+}
+.button.lightGreen {
+    background-color: #e5f4f2;
+    color: #009379;
+}
+.button.secondary {
+    background-color: #fff;
+    border: 1px solid #009379;
+    color: #009379;
+}
