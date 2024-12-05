@@ -5,131 +5,140 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/style/reset.css" />
         <link rel="stylesheet" href="./assets/style/style.css" />
+        <link rel="stylesheet" href="./assets/style/button.css" />
+        <link rel="stylesheet" href="./assets/style/generic.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>LandingPage2</title>
     </head>
+
     <body>
         <!-- navbar -->
         <section class="navbar">
-            <div class="logo">
-                <img src="./assets/style/icon/Logo Mark.svg" />
-                <span>Landing</span>Page
+            <div class="navbar-logo">
+                <img src="./assets/icon/Logo Mark.svg" />
+                <p><span>Landing</span>Page</p>
             </div>
-            <div class="menu">
-                <a class="none" href="">Contact</a>
-                <a class="white" href="">How it works</a>
-                <a class="green" href=""
-                    ><img src="./assets/style/icon/RocketLaunch.svg" />Get
-                    Started</a
+            <div class="button-container">
+                <a class="button yellow" href="#">Contact</a>
+                <a class="button lightgreen" href="#">How it works</a>
+                <a class="button green" href="#"
+                    ><img src="./assets/icon/RocketLaunch.svg" />Get Started</a
                 >
             </div>
         </section>
         <!-- navbar -->
 
-        <!-- hero -->
-        <section class="hero">
-            <div class="header">
-                <h1>Create Engaging <br />Landing Pages</h1>
-                <h4>
+        <!-- hero-section -->
+        <section class="hero-section">
+            <div class="section-header">
+                <h1 class="section-title">Create Engaging Landing Pages</h1>
+                <p class="section-subtitle">
                     Build beautiful landing pages record time with
-                    <a href="">Anima</a>'s <br />Landing Page UI Kit for Figma.
-                    No code required !
-                </h4>
-                <a class="green" href=""
-                    ><img src="./assets/style/icon/RocketLaunch.svg" />Get
-                    Started</a
-                >
-                <a class="white" href="">How it works</a>
+                    <a href="#">Anima</a>'s Landing Page UI Kit for Figma. No
+                    code required !
+                </p>
+                <div class="button-container">
+                    <a class="button green" href="#"
+                        ><img src="./assets/icon/RocketLaunch.svg" />Get
+                        Started</a
+                    >
+                    <a class="button secondary" href="#">How it works</a>
+                </div>
             </div>
-            <div class="mockup">
-                <img src="./assets/style/img/Mockup1.svg" alt="" />
-            </div>
+            <img class="section-visuels" src="./assets/img/Mockup.svg" />
         </section>
-        <!-- hero -->
+
+        <!-- hero-section -->
 
         <!-- features -->
-
         <section class="features">
             <div>
-                <img src="./assets/style/img/Visuals4.svg" />
+                <img
+                    class="features-visuels"
+                    src="assets/img/Visualsfeatures.svg"
+                />
             </div>
-            <div class="container">
-                <div class="header">
-                    <h2>Our features</h2>
-                    <h4>
-                        Few good reasons why you should use Anima Landing
-                        <br />Page Ui Kit to make your own pages
-                    </h4>
-                </div>
-                <div class="cards-info">
-                    <div class="first-column">
-                        <h4 class="info">
-                            <img
-                                src="./assets/style/icon/fastbuilding.svg"
-                            />Fast building
-                        </h4>
-                        <h4 class="info">
-                            <img
-                                src="./assets/style/icon/responsiveness.svg"
-                            />Responsiveness
-                        </h4>
-                    </div>
-                    <div class="second-column">
-                        <h4 class="info">
-                            <img
-                                src="./assets/style/icon/easytoeditsvg.svg"
-                            />Easy to edit
-                        </h4>
+            <div class="features-container">
+                <h2 class="title">Our features</h2>
+                <p class="subtitle">
+                    Few good reasons why you should use Anima Landing Page Ui
+                    Kit to make your own pages.
+                </p>
 
-                        <h4 class="info">
-                            <img src="./assets/style/icon/nocodeneeded.svg" />No
-                            code needed
-                        </h4>
-                    </div>
+                <div class="features-cards">
+                    <p class="features-card">
+                        <img src="./assets/icon/fastbuilding.svg" />Fast
+                        building
+                    </p>
+                    <p class="features-card">
+                        <img
+                            src="./assets/icon/responsiveness.svg"
+                        />Responsiveness
+                    </p>
+                    <p class="features-card">
+                        <img src="./assets/icon/easytoeditsvg.svg" />Easy to
+                        edit
+                    </p>
+                    <p class="features-card">
+                        <img src="./assets/icon/nocodeneeded.svg" />No code
+                        needed
+                    </p>
                 </div>
             </div>
         </section>
-
         <!-- features -->
 
         <!-- projects -->
         <section class="projects">
-            <div class="header">
-                <h2>Discover our latest work</h2>
-                <h5>
+            <div class="projects-header">
+                <h2 class="title">Discover our latest work</h2>
+                <p class="subtitle">
                     Explore our portfolio and see the latest and greatest
                     projects the we've brought to life.
-                </h5>
+                </p>
             </div>
-            <div class="cards-row">
-                <div class="project-card">
-                    <img src="./assets/style/img/Placeholder.jpg" />
-                    <h3>Project Title</h3>
-                    <h4>Short Description</h4>
-                    <h5>Category</h5>
+            <div class="projects-container">
+                <div class="projects-card">
+                    <img
+                        class="projects-visuels"
+                        src="./assets/img/Placeholder.jpg"
+                    />
+                    <p class="projects-title">Project Title</p>
+                    <p class="projects-description">Short Description</p>
+                    <p class="projects-category">Category</p>
                 </div>
-                <div class="project-card">
-                    <img src="./assets/style/img/Placeholder.jpg" />
-                    <h3>Project Title</h3>
-                    <h4>Short Description</h4>
-                    <h5>Category</h5>
+                <div class="projects-card">
+                    <img
+                        class="projects-visuels"
+                        src="./assets/img/Placeholder.jpg"
+                    />
+                    <p class="projects-title">Project Title</p>
+                    <p class="projects-description">Short Description</p>
+                    <p class="projects-category">Category</p>
                 </div>
-                <div class="project-card">
-                    <img src="./assets/style/img/Placeholder.jpg" />
-                    <h3>Project Title</h3>
-                    <h4>Short Description</h4>
-                    <h5>Category</h5>
+                <div class="projects-card">
+                    <img
+                        class="projects-visuels"
+                        src="./assets/img/Placeholder.jpg"
+                    />
+                    <p class="projects-title">Project Title</p>
+                    <p class="projects-description">Short Description</p>
+                    <p class="projects-category">Category</p>
                 </div>
-                <div class="project-card">
-                    <img src="./assets/style/img/Placeholder.jpg" />
-                    <h3>Project Title</h3>
-                    <h4>Short Description</h4>
-                    <h5>Category</h5>
+                <div class="projects-card">
+                    <img
+                        class="projects-visuels"
+                        src="./assets/img/Placeholder.jpg"
+                    />
+                    <p class="projects-title">Project Title</p>
+                    <p class="projects-description">Short Description</p>
+                    <p class="projects-category">Category</p>
                 </div>
             </div>
         </section>
@@ -137,70 +146,163 @@
 
         <!-- testimonials -->
         <section class="testimonials">
-            <div class="header">
-                <h2>Real Stories from Satisfied Customers</h2>
-                <h5>See how our landing page ui kit is making an impact</h5>
+            <div class="testimonials-header">
+                <h2 class="title">Real Stories from Satisfied Customers</h2>
+                <p class="subtitle">
+                    See how our landing page ui kit is making an impact
+                </p>
             </div>
-            <div class="cards-row">
-                <div class="profile">
-                    <div class="identity">
-                        <img src="./assets/style/photo/LaurenM.jpg" />
-                        <h4>Lauren M.</h4>
-                        <h6>UI Designer @Boo</h6>
+            <div class="testimonials-container">
+                <div class="testimonials-cards">
+                    <div class="card-identity">
+                        <img src="./assets/photo/LaurenM.jpg" />
+                        <p class="name">Lauren M.</p>
+                        <p class="function">UI Designer @Boo</p>
                     </div>
-                    <div class="story">
-                        <img src="./assets/style/icon/Star Rating.svg" />
-                        <h5>
-                            "Anima's Landing Page UI Kit has <br />become a
-                            staple in my design toolkit. <br />This kit has
-                            evrything I need to get <br />the job done quickly
-                            and efficiently."
-                        </h5>
+                    <div class="card-story">
+                        <img src="./assets/icon/Star Rating.svg" />
+                        <p>
+                            "Anima's Landing Page UI Kit has become a staple in
+                            my design toolkit. This kit has everything I need to
+                            get the job done quickly and efficiently."
+                        </p>
                     </div>
                 </div>
-                <div class="profile">
-                    <div class="identity">
-                        <img src="./assets/style/photo/DavidB.jpg" />
-                        <h4>Lauren M.</h4>
-                        <h6>UI Designer @Boo</h6>
+                <div class="testimonials-cards">
+                    <div class="card-identity">
+                        <img src="./assets/photo/DavidB.jpg" />
+                        <p class="name">David B.</p>
+                        <p class="function">Lead Designer @Creative</p>
                     </div>
-                    <div class="story">
-                        <img src="./assets/style/icon/Star Rating.svg" />
-                        <h5>
-                            "Anima's Landing Page UI Kit has <br />become a
-                            staple in my design toolkit. <br />This kit has
-                            evrything I need to get <br />the job done quickly
-                            and efficiently."
-                        </h5>
+                    <div class="card-story">
+                        <img src="./assets/icon/Star Rating.svg" />
+                        <p>
+                            "The Landing Page UI Kit has been a game changer.
+                            The pre-designed components and templates have
+                            helped us deliver projects faster."
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- testimonials -->
 
         <!-- team -->
         <section class="team">
-            <div class="header">
-                <h2>Meet our team</h2>
-                <h5>
+            <div class="team-header">
+                <h2 class="title">Meet our team</h2>
+                <p class="subtitle">
                     Get to know the faces behind the scens and learn about the
                     values that drive us.
-                </h5>
+                </p>
             </div>
-            <div class="cards-row">
-                <div class="identity">
-                    <img src="" />
-                    <h4>Sarah K.</h4>
-                    <h6>Lead designer</h6>
-                    <h5>
-                        With a passion for color and alove for <br />clean lines
-                        . Sarah brings all our wildest <br />design dreams to
-                        life
-                    </h5>
+            <div class="team-container">
+                <div class="team-card">
+                    <img src="./assets/photo/Sarahlead.jpg" />
+                    <p class="name">Sarah K.</p>
+                    <p class="function">Lead designer</p>
+                    <p>
+                        "With a passion for color and alove for clean lines.
+                        Sarah brings all our wildest design dreams to life."
+                    </p>
+                    <div class="card-link">
+                        <a class="#">Twitter</a>
+                        <a class="#">Dribble</a>
+                        <a class="#">Linkdin</a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="./assets/photo/Michaelproduct.jpg" />
+                    <p class="name">Michael L.</p>
+                    <p class="function">Product designer</p>
+                    <p>
+                        "Michael got a sharp eye for detail and the ability to
+                        turn any boring interface into a work of art."
+                    </p>
+                    <div class="card-link">
+                        <a class="#">Twitter</a>
+                        <a class="#">Dribble</a>
+                        <a class="#">Linkdin</a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="./assets/photo/Laurenux.jpg" />
+                    <p class="name">Lauren M.</p>
+                    <p class="function">UX designer</p>
+                    <p>
+                        "Lauren is the mastermind behind all the seamless user
+                        experiences you love. She's a wizard at making things
+                        intuitive."
+                    </p>
+                    <div class="card-link">
+                        <a class="#">Twitter</a>
+                        <a class="#">Dribble</a>
+                        <a class="#">Linkdin</a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- team -->
+
+        <!-- logobar -->
+        <section class="logobar">
+            <h2 class="title">More than 50 integrations</h2>
+            <p class="subtitle">
+                We integrate with more than 50 apps you use daily
+            </p>
+            <div class="logobar-grids">
+                <div class="logobar-grid">
+                    <img src="./assets/icon/logo1.svg" />
+                    <img src="./assets/icon/logo2.svg" />
+                    <img src="./assets/icon/logo3.svg" />
+                    <img src="./assets/icon/logo4.svg" />
+                    <img src="./assets/icon/logo5.svg" />
+                    <img src="./assets/icon/logo6.svg" />
+                </div>
+                <div class="logobar-grid">
+                    <img src="./assets/icon/logo7.svg" />
+                    <img src="./assets/icon/logo8.svg" />
+                    <img src="./assets/icon/logo9.svg" />
+                    <img src="./assets/icon/logo10.svg" />
+                    <img src="./assets/icon/logo11.svg" />
+                </div>
+                <div class="logobar-grid">
+                    <img src="./assets/icon/logo12.svg" />
+                    <img src="./assets/icon/logo13.svg" />
+                    <img src="./assets/icon/logo14.svg" />
+                    <img src="./assets/icon/logo15.svg" />
+                </div>
+            </div>
+            <a class="button green" href="#">View All Integrations</a>
+        </section>
+        <!-- logobar -->
+
+        <!-- cta  -->
+        <section class="cta">
+            <h2 class="cta-title">Get Landing Page UI Kit Today</h2>
+            <p class="cta-subtitle">
+                Break Figma limits and explore the enedless possibilities with
+                Anima.
+            </p>
+            <a class="button green" href="#"
+                ><img src="./assets/icon/RocketLaunch.svg" />Get Started</a
+            >
+            <img class="cta-visuels" src="./assets/img/mockupcta.svg" />
+        </section>
+        <!-- cta  -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <p>© 2023 Anima's Landing Page Ui Kit.</p>
+            <div class="footer-logos">
+                <a href=""><img src="./assets/icon/youtube.svg" /></a>
+                <a href=""><img src="./assets/icon/ig.svg" /></a>
+                <a href=""><img src="./assets/icon/cat.svg" /></a>
+                <a href=""><img src="./assets/icon/linkdin.svg" /></a>
+            </div>
+        </footer>
+        <!-- footer -->
     </body>
 </html>

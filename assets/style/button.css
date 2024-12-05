@@ -10,15 +10,30 @@
     padding: 18px 50px;
     text-decoration: none;
     gap: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+.button.yellow {
+    background-color: #f8d57e;
+    color: #009379;
 }
 
 .button.green {
     background-color: #009379;
     color: #fff;
 }
-.button.lightGreen {
+.button.lightgreen {
     background-color: #e5f4f2;
     color: #009379;
+}
+.button.lightgreen .border {
+    border: 5px solid #009379;
 }
 .button.secondary {
     background-color: #fff;
